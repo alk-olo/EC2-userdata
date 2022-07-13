@@ -1,2 +1,2 @@
-Install-WindowsFeature-name Web-Server -IncludeManagementTools
+Install-Windows Feature-name Web-Server -Include ManagementTools
 New-Item -Path C:\inetpub\wwwroot\index.html -ItemType File -Value "WELCOME WEB SERVER 1 !!!" -Force
